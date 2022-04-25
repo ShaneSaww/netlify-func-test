@@ -33,6 +33,7 @@ const handler = async (event) => {
       sidID: 'abc-123-dae'
     };
     console.log(coolObject)
+    console.log('{"testFilter": "test"}')
     return {
       statusCode: 200,
       body: JSON.stringify({ message: `Hello ${subject}` }),
