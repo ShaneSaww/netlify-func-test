@@ -27,6 +27,12 @@ const handler = async (event) => {
     const subject = event.queryStringParameters.name || 'World'
     console.log("console log line")
     console.error("console error log line")
+    const coolObject = {
+      filter: 'onMe',
+      accountID: 'asdfasdfasdf-asdfasdfa',
+      sidID: 'abc-123-dae'
+    };
+    console.log(coolObject)
     return {
       statusCode: 200,
       body: JSON.stringify({ message: `Hello ${subject}` }),
