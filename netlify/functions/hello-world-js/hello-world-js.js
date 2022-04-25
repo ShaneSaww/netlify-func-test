@@ -33,6 +33,12 @@ const handler = async (event) => {
       sidID: 'abc-123-dae'
     };
     console.log(coolObject)
+    const otherObject = {
+      filter: 'otherObject',
+      accountID: 'qwert123',
+      sidID: 'ddd1112-22333'
+    };
+    console.log(JSON.stringify(otherObject))
     console.log('{"testFilter": "test"}')
     return {
       statusCode: 200,
