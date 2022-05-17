@@ -1,2 +1,7 @@
-[dev]
-  functionsPort = 9820
+[[edge_functions]]
+  path = "/js-hello"
+  function = "js_hello"
+
+[[edge_functions]]
+  path = "/ts-hello"
+  function = "ts_hello"
