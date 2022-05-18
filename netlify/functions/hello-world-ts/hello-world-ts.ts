@@ -12,7 +12,7 @@ export const handler: Handler = async (event, context) => {
   log.debug("I am a debug tslog.");
   log.info("I am an info tslog.");
   log.warn("I am a warn tslog with a json object:", { foo: "bar" });
-  log.error("I am an error tslog.");
+  log.error("I am an error tslog");
 
   return {
     statusCode: 200,
