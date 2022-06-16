@@ -31,7 +31,7 @@ func init() {
 }
 func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 
-	fmt.Println("fmt.Println log line")
+	fmt.Println("fmt.Println log line---branch")
 	log.Println("log.Println log line")
 	logruslogger.Trace("logruslogger logs in  trace")
 	logruslogger.Debug("logruslogger logs in debug ")
