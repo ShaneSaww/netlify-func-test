@@ -15,8 +15,9 @@
 [context.feature.environment]
   MY_COOL_VAR = "FEATURE_VALUE"
 
-[context.staging.environment]
+[context.tomlbranch.environment]
   MY_COOL_VAR = "STAGING_VALUE"
+  TOMLBRANCH = "YES"
 
 [context.anotherfeature.environment]
   MY_COOL_VAR = "ANOTHER_FEATURE_VALUE"
@@ -24,3 +25,4 @@
 [build.environment]
   BUILD_ENV = "VAR"
   MY_COOL_VAR = "ALL?"
+  TOMLBRANCH = "NO"
