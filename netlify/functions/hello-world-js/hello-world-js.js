@@ -42,7 +42,7 @@ const handler = async (event) => {
     console.log('{"testFilter": "test"}')
     return {
       statusCode: 200,
-      body: JSON.stringify({ message: `Hello ${subject}` }),
+      body: JSON.stringify({ message: `Hello ${subject}\n ${process.env}` }),
       // // more keys you can return:
       // headers: { "headerName": "headerValue", ... },
       // isBase64Encoded: true,

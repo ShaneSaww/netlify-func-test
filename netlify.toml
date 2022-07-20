@@ -5,3 +5,22 @@
 [[edge_functions]]
   path = "/ts-hello"
   function = "ts_hello"
+
+[context.deploy-preview.environment]
+  MY_COOL_VAR = "DP_VALUE"
+
+[context.branch-deploy.environment]
+  MY_COOL_VAR = "BD_VALUE"
+
+[context.feature.environment]
+  MY_COOL_VAR = "FEATURE_VALUE"
+
+[context.staging.environment]
+  MY_COOL_VAR = "STAGING_VALUE"
+
+[context.anotherfeature.environment]
+  MY_COOL_VAR = "ANOTHER_FEATURE_VALUE"
+
+[build.environment]
+  BUILD_ENV = "VAR"
+  MY_COOL_VAR = "ALL?"
