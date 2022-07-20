@@ -16,7 +16,7 @@
   MY_COOL_VAR = "FEATURE_VALUE"
 
 [context.tomlbranch.environment]
-  MY_COOL_VAR = "STAGING_VALUE"
+  MY_COOL_VAR = "STAGING_VALUE" 
   TOMLBRANCH = "YES"
 
 [context.anotherfeature.environment]
