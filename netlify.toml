@@ -17,7 +17,7 @@
 
 [context.tomlbranch.environment]
   MY_COOL_VAR = "STAGING_VALUE"
-  TOMLBRANCH = "YES"
+  TOMLBRANCH = "YES" 
 
 [context.branch2.environment]
   MY_COOL_VAR = "STAGING_VALUE"
