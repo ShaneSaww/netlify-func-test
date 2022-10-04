@@ -40,6 +40,7 @@ const handler = async (event) => {
     };
     console.log(JSON.stringify(otherObject))
     console.log('{"testFilter": "test"}')
+    console.log('${JSON.stringify(process.env)}')
     return {
       statusCode: 200,
       body: JSON.stringify({ message: `Hello ${subject}\n ${JSON.stringify(process.env)}` }),
